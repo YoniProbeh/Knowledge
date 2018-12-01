@@ -1,0 +1,42 @@
+<div class="sidenav bg-dark text-white">
+  <div class="list-group accordion pl-3" id="accordionSidenav">
+
+    <a class="btn list-group-item list-group-item-action bg-dark" data-toggle="collapse" href="#collapseSearch" role="button"
+      aria-expanded="true" aria-controls="collapseSearch"><i class="fa fa-search"></i>&nbsp; Search</a>
+    <div class="collapse show" id="collapseSearch" data-parent="#accordionSidenav">
+      <div class="card card-body bg-dark">
+        <p>Search Form</p>
+      </div>
+    </div>
+
+    <a class="btn list-group-item list-group-item-action bg-dark" data-toggle="collapse" href="#collapseSolutions" role="button"
+      aria-expanded="false" aria-controls="collapseSolutions"><i class="fa fa-plus"></i>&nbsp; Solutions</a>
+
+    <div class="collapse" id="collapseSolutions" data-parent="#accordionSidenav">
+      <div class="card card-body bg-dark">
+        <div class="list-group accordion" id="accordionSolutions">
+
+          <a class="btn list-group-item list-group-item-action bg-dark" data-toggle="collapse" href="#collapseSolutionSearch" role="button"
+            aria-expanded="false" aria-controls="collapseSolutionSearch"><i class="fa fa-search"></i>&nbsp; Search</a>
+          <div class="collapse" id="collapseSolutionSearch" data-parent="#accordionSolutions">
+            <div class="card card-body bg-dark">
+              <p>Search Form</p>
+            </div>
+          </div>
+          <a class="btn list-group-item list-group-item-action bg-dark" routerLink="Solutions/Edit"><i class="fa fa-plus"></i>&nbsp; Create
+            New</a>
+
+        </div>
+      </div>
+    </div>
+
+    <a class="btn list-group-item list-group-item-action bg-dark" data-toggle="collapse" href="#collapseCategories" role="button"
+      aria-expanded="false" aria-controls="collapseCategories"><i class="fa fa-plus"></i>&nbsp; Categories</a>
+    <div class="collapse" id="collapseCategories" data-parent="#accordionSidenav">
+      <div class="card card-body bg-dark">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
+        keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+.sidenav {
+  height: 100vh;
+}
+.list-group-item-action {
+  border: none;
+  color: white;
+  text-decoration-line: none;
+}
+.card {
+  border: none !important;
+}
+.btn[aria-expanded="true"] {
+  background-color: #1d2124 !important;
+}
