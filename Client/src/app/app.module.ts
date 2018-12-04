@@ -6,7 +6,7 @@ import { AuthComponent } from './Auth/Auth.component';
 import { BreadcrumbComponent } from './Breadcrumb/Breadcrumb.component';
 import { HomeComponent } from './Home/Home.component';
 import { NavbarComponent } from './Navbar/Navbar.component';
-import { MainRoutingModule } from './Shared/Main.routing';
+import { MainRoutingModule } from './Main.routing';
 import { SidenavComponent } from './Sidenav/Sidenav.component';
 import { SolutionModule } from './Solution/Solution.module';
 
@@ -26,8 +26,6 @@ import { SolutionModule } from './Solution/Solution.module';
       HttpClientModule
    ],
    providers: [],
-   bootstrap: [
-      AppComponent
-   ]
+   bootstrap: [AppComponent]
 })
 export class AppModule { }

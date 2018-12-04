@@ -9,12 +9,12 @@ export class Model {
 
   // Default Constructor
   constructor(id?: string, title?: string, details?: string, description?: string, created?: Date, isActive?: boolean, image?: any) {
-    this.id = id ? id : '';
-    this.title = title ? title : '';
-    this.details = details ? details : '';
-    this.description = description ? description : '';
+    this.id = id;
+    this.title = title;
+    this.details = details;
+    this.description = description;
     this.created = created ? created : new Date();
     this.isActive = isActive ? isActive : true;
-    this.image = image ? image : null;
+    this.image = image;
   }
 }
